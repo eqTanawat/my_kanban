@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import simpledialog, messagebox
 import json
 import os
-from Task import Task  # Import the Task class from Task.py
 
 class Task:
     def __init__(self, text, state="To-Do"):
